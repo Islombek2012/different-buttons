@@ -1,0 +1,28 @@
+.site-btn{
+  padding: 20px 32px;
+  background-color: #444CFC;
+  border: 2px solid transparent;
+  position: relative;
+  color: #fff;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.8s;
+  transform-origin: center;
+  
+}
+.site-btn:hover{
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #444CFC;
+  transform: rotate(-360deg);
+}
+.site-btn:active{
+  opacity: 0.6;
+  transform: scale(0.8) skew(25deg);
+}
+.site-btn .sp{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
